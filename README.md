@@ -343,34 +343,34 @@ console.log(arr2);
 7. 
 
 
-HTML, CSS, JavaScript
+#HTML, CSS, JavaScript
 
-homework_01
+##homework_01
 Create a project folder named HW on your desktop.
 Inside the folder, create a file named index.html.
 In the index.html file, add a basic HTML structure with tags: html, head, body, and h1.
 Inside the h1 tag, write the text: “This is my first homework!”
 Launch the program in a browser.
 
-homework_02_1
+##homework_02_1
 The form should include:
 2 text input fields (text, password)
 2 buttons (submit and reset)
 1 checkbox
 
-homework_03
+##homework_03
 Create an HTML page with a container (div) for a list of cards (div).
 Using CSS and Flexbox, arrange the cards in a row and stretch them to fill the container width. Use any number of cards.
 Each card must include an image (any image) and a title (any text).
 Ensure that the layout is responsive and readable on smaller screens.
 
-homework_03_1
+##homework_03_1
 Layout a form based on a sample using flex-direction: column for the form and flex for the block with two fieldset elements. Center the submit button using flex. Content and colors can be arbitrary.
 
-homework_04
+##homework_04
 Create an HTML page containing 3 blocks with a heading and some text. The heading should stick to the top of the page when scrolling. Set the body height to 2000px. Use filler content (e.g., from lipsum.com).
 
-homework_04_1
+##homework_04_1
 Create an HTML page with a button. Style the button as you wish (can follow screenshots).
 The button must have 3 states:
 Idle — base styles
@@ -378,14 +378,14 @@ Hover — change text color, background, border, etc.
 Active (clicked) — display text: "Button clicked"
 Use animated transitions to switch between states.
 
-homework_05
+##homework_05
 (empty)
 
-homework_05_1
+##homework_05_1
 Layout 3 screens from the design used in previous lessons.
 [Макет](https://www.figma.com/file/siI1IXw74fX9Q5c4NqJHPn/Untitled?type=design&node-id=0%3A1&mode=design&t=MiyGFGUF5xBDKgJI-1)
 
-homework_06_1
+##homework_06_1
 Task 1
 Declare two variables firstName and lastName, and assign your first and last name.
 Use string concatenation to create a third variable greeting with the format: “Hello, FirstName LastName!”.
@@ -396,7 +396,7 @@ Create variables sentencePart1 and sentencePart2 and assign them a beginning and
 Use string concatenation to create completeSentence.
 Output it to the console.
 
-homework_06_2
+##homework_06_2
 Task 1 *
 Write a program that evaluates student grades based on their scores:
 90 and above: 'A'
@@ -409,7 +409,7 @@ Task 2 *
 Declare a variable dayOfWeek with a value from 1 to 7 (1 - "Monday", 2 - "Tuesday", etc.).
 Use a switch statement to determine and output the corresponding day.
 
-homework_07
+##homework_07
 Create an array of numbers and output each value using a loop.
 
 From an array of random numbers (2 to 24), display numbers less than 20 and greater than 8.
@@ -419,7 +419,7 @@ Find the minimum value in an array.
 Update an element in an array by its index.
 Given an array of words, find the longest word using .length.
 
-homework_07_1
+##homework_07_1
 Task 1
 Create an object representing a person with the fields name and age. Print the data.
 
@@ -437,7 +437,7 @@ Create an array of fruit objects. Use a loop to filter red-colored fruits and lo
 Task 5 **
 Create a playlist object with songs (array of objects). Print info about each song.
 
-homework_08
+##homework_08
 Task 1
 Create a function that takes 2 numbers and returns their sum. Set a default value for the second parameter. Call the function and log the result.
 
@@ -449,21 +449,21 @@ Task 3 *
 Create an array students with objects (name, age, course).
 Write a function displayStudentInfo to log student info.
 
-homework_08_1
+##homework_08_1
 Task 1
 Create a function that takes an array of numbers and returns the product of all elements. Log the result.
 
 Task 2
 Create a number array. Use a while loop to calculate and print the sum of its elements.
 
-homework_09
+##homework_09
 Create an HTML page with a div. Use innerHTML to replace its content with:
 "This is italic text" (<em> tag)
 
-homework_09_1
+##homework_09_1
 You have a list of li items. On page load, check a condition (e.g., list length). If true, create a new element and replace the last item in the list.
 
-homework_10
+##homework_10
 Task 1
 Create a blue block. On hover, change its color to red; on mouse leave, revert it.
 
@@ -471,20 +471,20 @@ Task 2
 You have a block with id="colorBlock" and a button with id="colorButton".
 On button click, change the block’s color to a random RGB color using Math.random().
 
-homework_11
+##homework_11
 Create an HTML form with inputs for login and password, and a "Login" button.
 
 Using JavaScript + DOM, check if the input matches predefined credentials.
 
 Show success message or error message.
 
-homework_11_1
+##homework_11_1
 Create an HTML page with a button “Click me” and a block showing the click count.
 On each click, increase the counter and change the block’s background color.
 If clicks % 5 == 0, change to a random color.
 At 10 clicks, show a message: “Congratulations! You reached 10 clicks!”
 
-homework_12
+##homework_12
 Task 1
 Create an array of objects with name and age.
 Use map() to create a new array with a status:
@@ -512,7 +512,7 @@ const movies = [
   { title: "The Matrix", rating: 4.5 }
 ];
 
-homework_12_1
+##homework_12_1
 Task 1
 Create an array of objects with title and year.
 Use sort() to sort them from oldest to newest.
@@ -521,20 +521,20 @@ Task 2
 Create an array of people with name and age.
 Use reduce() to combine all names into a string separated by commas.
 
-homework_13
+##homework_13
 Create an array of objects with name and price.
 Implement a function hasExpensiveItem using some() to check if any item has a price > 50.
 
-homework_13_1
+##homework_13_1
 Create a simple webpage where users can enter a note.
 Add a "Save" button that saves the note to localStorage.
 Also show the last saved note on the page.
 The note should persist after page reload.
 
-homework_14_1
+##homework_14_1
 Create a function waitForTime that returns a Promise which resolves after a given number of milliseconds with the message "Waiting is over".
 
-homework_15
+##homework_15
 Make a GET request to https://jsonplaceholder.typicode.com/users.
 Render a card for each user showing:
 
@@ -552,7 +552,7 @@ company.name
 
 Use any styles. (Used grid.)
 
-homework_15_1
+##homework_15_1
 Project: Todo-list
 [Макет проекта](<https://www.figma.com/design/h7ecVRqH6mqrf2JYkCyb0C/To-do-list-(Community)?node-id=0-1&p=f&t=qsB4AhaPu99Qnnp4-0>)
 Requirements:
@@ -561,7 +561,7 @@ Use localStorage for data
 Create markup for main components (first screen)
 Connect Open Sans font and icon library from Google Fonts
 
-homework_16
+##homework_16
 Task 1
 Use async/await to make a GET request to:
 https://jsonplaceholder.typicode.com/todos/1
@@ -572,7 +572,7 @@ Use async/await to GET data from:
 https://jsonplaceholder.typicode.com/posts?_limit=10
 Print the result.
 
-homework_16_1
+##homework_16_1
 Task 1
 Use try/catch to send a request to:
 https://jsonplaceholder.typicode.com/posts?userId=1
@@ -582,13 +582,13 @@ Introduce an error in the URL to test the catch.
 Task 2
 Write a function that divides one number by another, handling division by zero errors.
 
-homework_17
+##homework_17
 Sass
 Create a variable and use it in styles:
 Declare a variable primary-color with value #FF0000
 Use primary-color for text color in .heading
 
-homework_18
+##homework_18
 Task 1
 Create a responsive container with a variable width:
 Default width: 960px
@@ -601,7 +601,7 @@ Accepts background-color and color as arguments
 
 Apply to a .button class
 
-homework_19
+##homework_19
 Create a counter object with:
 Property count (default 0)
 Methods increment() and decrement()
@@ -613,14 +613,14 @@ console.log(counter.count); // 1
 counter.decrement();
 console.log(counter.count); // 0
 
-homework_20
+##homework_20
 Create a class Shape with a method draw()
 Create two child classes: Rectangle and Circle
 Override the draw() method in each
 Create an array with instances of Rectangle and Circle
 Use a loop to call draw() on each
 
-homework_21
+##homework_21
 Create a class CopyEntity with a static method copyObject() that copies any object:
 
 js
@@ -643,7 +643,7 @@ homework_23
 Create a function that builds a list from an array.
 Each list item must have a button to delete that item from the list.
 
-homework_24
+##homework_24
 Create a modal window using the <dialog> tag
 Add custom styles, animations, and gradients
 Create markup
