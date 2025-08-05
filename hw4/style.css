@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    background-color: #ef54c0;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+

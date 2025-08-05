@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <div class="header">
+            <fieldset class="block1">
+                <legend>Имя</legend>
+                <input class="first-name-input" type="text" name="first_name" required placeholder="Фамилия" >
+                <input class="last-name-input" type="text" name="last_name" required placeholder="Имя" >
+            </fieldset>
+        </div>
+        <div class="main">
+            <fieldset class="block2">
+                <legend>Пол</legend>
+                <div class="gender-male-block">
+                    <input type="radio" name="gender" id="gender_male" required>
+                    <label for="gender_male">Мужской</label>
+                </div>
+                <div class="gender-female-block">
+                    <input type="radio" name="gender" id="gender_female" required>
+                    <label for="gender_female">Женский</label>
+                </div>
+                <div class="gender_undisclosed-block">
+                    <input type="radio" name="gender" id="gender_undisclosed" required>
+                    <label for="gender_undisclosed">Не хочу говорить</label>
+                </div>
+            </fieldset>
+            <fieldset class="block3">
+                <legend>Получать рассылку по</legend>
+                <div class="email-input-block">
+                    <input type="checkbox" name="email" id="email_input" required>
+                    <label for="email_input">Email</label>
+                </div>
+                <div class="sms-input-block">
+                    <input type="checkbox" name="sms" id="sms_input" required>
+                    <label for="sms_input">SMS</label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="button-block"><button class="button">Отправить</button></div>
+    </form>
+</body>
+</html>
