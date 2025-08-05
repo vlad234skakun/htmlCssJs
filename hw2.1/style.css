@@ -1,0 +1,64 @@
+body {
+    background-color: #2f4f4f;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+.block {
+    background-color: #6E9C9F;
+    width: 300px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: calc(50vh - 102.8px);
+}
+
+form {
+    text-align: center; 
+}
+
+.login {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 5px;
+}
+
+.password {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 5px;
+
+}
+
+.buttons {
+    
+
+}
+
+.button1 {
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 5px;
+    width: 45%;
+
+}
+
+.button2 {
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    margin: 5px;
+    background: #E18683;
+    width: 45%;
+}
+
