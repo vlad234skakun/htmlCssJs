@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d1d1d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    background-color: #595959;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blockContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.password {
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff7b7b;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

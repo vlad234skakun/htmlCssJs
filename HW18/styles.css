@@ -1,0 +1,21 @@
+.button-item {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: black;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
